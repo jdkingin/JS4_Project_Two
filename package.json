@@ -1,0 +1,19 @@
+{
+  "name": "js4_project_two",
+  "version": "1.0.0",
+  "description": "A simple website about Competitive Canadian Shooting Championship using Git and Gulp for development",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdkingin/JS4_Project_Two.git"
+  },
+  "author": "Jaidee King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdkingin/JS4_Project_Two/issues"
+  },
+  "homepage": "https://github.com/jdkingin/JS4_Project_Two#readme"
+}
