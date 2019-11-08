@@ -15,5 +15,22 @@
   "bugs": {
     "url": "https://github.com/jdkingin/JS4_Project_Two/issues"
   },
-  "homepage": "https://github.com/jdkingin/JS4_Project_Two#readme"
+  "homepage": "https://github.com/jdkingin/JS4_Project_Two#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "delete": "^1.1.0",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-front-matter": "^1.3.0",
+    "gulp-markdown": "^5.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.2.0",
+    "gulp-typescript": "^5.0.1",
+    "gulp-wrap": "^0.15.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
