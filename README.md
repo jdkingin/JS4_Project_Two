@@ -8,7 +8,9 @@ A simple website about Competitive Canadian Shooting Championship using Git and 
 
 Create a new website for a competitive activity that you know nothing or very little about. It can be anythingthat requires competition: curling, figure skating, skeet shooting, lumberjack games, dock dogs, etc. It can bea local, national, or a world competition.
 * Use Git and GitHub with the methods covered to complete this project.
+
 The site should contain at least the following Markdown pages:
+
 * Home
 * How the competition works (basic rules and purpose)
 * Past winners (last competition placing or previous few years champions)
