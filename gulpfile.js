@@ -55,7 +55,6 @@ function watch_task()
     watch(['source/scripts/*.js', 'source/scripts/*.ts'], series(js_task, reload_task));
     watch('source/images/*.png', series(image_task, reload_task));
     watch('source/styles/*.scss', series(css_task, reload_task));
-    watch('source/pages/templates/*html', series(markdown_task, reload_task));
 }
 
 function sync_task(cb)
