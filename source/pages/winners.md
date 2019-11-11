@@ -4,7 +4,7 @@ banner: banner.png
 template: page
 ---
 
-# CPast Winners
+# Past Winners
 
 CONGRATULATIONS TO THE 2017-2018 WINNERS OF THE CSSA TARGET COMPETITION! See the Final Standings [HERE](http://cssa-cila.org/wp-content-cssa/uploads/2018/12/CSSA-Target-Competition-Final-Standings-2017-2018-2.pdf)
 
