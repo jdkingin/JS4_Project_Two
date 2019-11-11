@@ -55,7 +55,6 @@ function watch_task()
     watch(['source/scripts/*.js', 'source/scripts/*.ts'], series(js_task, reload_task));
     watch('source/images/*.png', series(image_task, reload_task));
     watch('source/styles/*.scss', series(css_task, reload_task));
-    watch('source/pages/templates/*html', series(markdown_task, reload_task));
 }
 
 function sync_task(cb)
@@ -78,4 +77,4 @@ exports.remove = remove_task;
 exports.watch = watch_task;
 exports.markdown = markdown_task;
 exports.build = series(remove_task, parallel(markdown_task, js_task, css_task, image_task));
-exports.default = parallel(exports.build,watch_task, sync_task);
+exports.default = series(exports.build, parallel(watch_task, sync_task));

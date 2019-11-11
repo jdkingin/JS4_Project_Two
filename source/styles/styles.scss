@@ -1,0 +1,105 @@
+/*
+https://color.adobe.com/Color-Theme-21-color-theme-10304555/edit/?copy=true&base=2&rule=Custom&selected=4&name=Copy%20of%20Color%20Theme%2021&mode=rgb&rgbvalues=0.8862745098039215,0.8745098039215686,0.8549019607843137,0.1411764705882353,0.2823529411764706,0.48627450980392156,0.8862745098039215,0.8235294117647058,0.7725490196078432,0.7450980392156863,0.5725490196078431,0.3843137254901961,0.7529411764705882,0.4588235294117647,0.3686274509803922&swatchOrder=0,1,2,3,4
+#E2DFDA off white
+#24487C dark blue
+#E2D2C5 light tan
+#BE9262 tan
+#C0755E rust
+*/
+
+html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E2D2C5;
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    max-width: 960px;
+    min-width: 660px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+body > header > img {
+    width: 100%;
+    float: left;
+}
+
+main,
+body > header > nav {
+    clear: both;
+}
+
+body > header > nav li {
+    display: block;
+    float: left;
+    width: 25%;
+    background-color: skyblue;
+    color: black;
+    line-height: 2;
+    font-weight: bold;
+}
+
+body > header > nav a {
+    display: block;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main {
+    clear: both;
+}
+
+footer {
+    clear: both;
+}
+
+nav a:hover {
+    color: #E2D2C5;
+    background-color: #7F3B00;
+}
+
+nav a.active {
+    color:black;
+    background-color: #E2D2C5;
+}
+
+article {
+    padding: 1rem;
+}
+article img {
+    width: 300px;
+    float: right;
+}
+
+footer {
+    clear: both;
+    line-height: 2;
+    color: #E2D2C5;
+    background-color: #C0755E;
+}
+
+footer address {
+    text-align: center;
+    font-style: normal;
+}
