@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Winners
 banner: banner.png
 template: page
 ---

@@ -9,13 +9,22 @@
 </head>
 
 <body>
-  {% include "source/pages/templates/header.html" %}
+  <div id="container">
 
-  {% block main %}Default content{% endblock %}
-  </main>
-  <footer>
-    <p>&copy; Copyright 2019, Jaidee King &#9400;</p>
-  </footer>
+    
+      <div id="header">
+        {% include "source/pages/templates/header.html" %}
+      </div>
+      <div id="body">
+        {% block main %}Default content{% endblock %}
+      </div>
+    
+
+    <div id="footer">
+      {% include "source/pages/templates/footer.html" %}
+    </div>
+
+  </div>
 </body>
 
 </html>
