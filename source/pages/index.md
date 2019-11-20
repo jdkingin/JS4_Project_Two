@@ -19,3 +19,21 @@ Click on one of the links below to read more about our history or a particular s
 [Handgun shooting dicilpines](https://cssa-cila.org/shooting-sports/handgun-shooting-disciplines/)
 
 [Rifle](https://cssa-cila.org/shooting-sports/rifle/)
+
+Air Rifle:
+![Air Rifle](images/airrifle.gif "Image of Air Rifle")
+
+Free Rifle:
+![Free Rifle](images/freerifle.gif "Image of Free Rifle")
+
+Match Rifle:
+![Match Rifle](images/matchrifle.gif "Image of Match Rifle")
+
+Metallic Silhoulette Rifle:
+![Metallic Rifle](images/metallicSilhouetteRifle.gif "Image of Metallic Silhouette Rifle")
+
+Running Target Rifle:
+![Running Target Rifle](images/runningTargetRifle.gif "Image of Running Target Rifle")
+
+Sporting Rifle:
+![Sporting Rifle](images/sportingrifle.gif "Image of Sporting Rifle")
