@@ -103,27 +103,27 @@ nav
     padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 24.7%;
     height: 100%;
     overflow: auto;
-    background-color: black;
+    background-color: lightskyblue  ;
 }
 
 //Modal Content
 .modal-content
 {
     position: relative;
-    background-color: #fefefefe;
+    background-color: white;
     margin: auto;
     padding: 0;
     width: 90%;
-    max-width: 1200%;
+    max-width: 100%;
 }
 
 //The close button
 .close 
 {
-    color: red;
+    color: white;
     position: absolute;
     top: 10px;
     right: 25px;
@@ -133,7 +133,7 @@ nav
 
 .close:hover, .close:focus 
 {
-    color: #999;
+    color: red;
     text-decoration: none;
     cursor: pointer;
 }
@@ -141,6 +141,11 @@ nav
 //Hide slides by default
 .imgSlides{
     display: none;
+}
+
+.cursor 
+{
+    cursor: pointer;
 }
 
 //Next and prev buttons
@@ -152,7 +157,7 @@ nav
     width: auto;
     padding: 16px;
     margin-top: -50x;
-    color: white;
+    color:gray;
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -167,7 +172,11 @@ nav
     right: 0px;
     border-radius: 3px 0 0 3px;
 }
-
+//On hover add backgroued shadow
+.prev:hover, .next:hover
+{
+    background-color: rgba(0, 0, 0, 0.8);
+}
 //Number text (1/6 etc)
 .numbertext
 {
@@ -182,19 +191,27 @@ nav
 .caption-container
 {
     text-align: center;
-    background-color: black;
+    background-color: white;
     padding: 2px 16px;
-    color: white;
+    color: black;
 }
 
-img.demo
+.demo
 {
-    opacity: 0.6;
+    opacity: 0.5;
+    width: 90%;
+    height: 100%;
+    margin-top: 10px;
 }
 
-.active, .dem:hover
+.active, .demo:hover
 {
     opacity: 1;
+}
+
+img 
+{
+    margin-bottom: 10px ;
 }
 
 img.hover-shadow
