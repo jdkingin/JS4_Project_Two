@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 $OldBrick : rgba(150, 40, 27, 1);
+$Roboto:'Roboto', sans-serif;
 
 * 
 {
@@ -7,7 +9,7 @@ $OldBrick : rgba(150, 40, 27, 1);
 html, body {
     margin: 0;
     padding: 0;
-    background-color: $OldBrick;
+    background-color: #333;
     height: 100vh;
 }
 //STYLES TO KEEP FOOTER AT BOTTOM OF PAGE//
@@ -17,6 +19,7 @@ html, body {
     margin: auto;
     width: 960px;
     background-color: white;
+    font-family: $Roboto;
 }
 #header 
 {
@@ -50,6 +53,8 @@ nav
         list-style-type: none;
         overflow: hidden;
         background-color: #333;
+        border-left: 5px solid $OldBrick;
+        border-right: 5px solid $OldBrick;
         li
         {
             float: left;
@@ -67,7 +72,7 @@ nav
             }
             .active
             {
-                background-color:lightskyblue;
+                background-color: $OldBrick;
             }
         }
     }
@@ -102,10 +107,10 @@ nav
     padding-top: 100px;
     left: 0;
     top: 0;
-    width: 24.7%;
+    width: 25% /*100%*/;
     height: 100%;
     overflow: auto;
-    background-color: lightskyblue  ;
+    background-color: $OldBrick;
 }
 
 //Modal Content
@@ -223,13 +228,50 @@ img.hover-shadow
     box-shadow: 0 4px 8px 0, 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
 
-
-
-.modal.horizTranslate {
-    -webkit-transition: 3s;
-    -moz-transition: 3s;
-    -ms-transition: 3s;
-    -o-transition: 3s;
-    transition: 3s;
-    margin-left: 50% !important;
-  } 
+article > a 
+{
+    padding-right: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $OldBrick;
+    font-weight: bold;
+    border-right: 3px solid $OldBrick;
+}
+article > a:nth-of-type(3)
+{
+    border-right: 0;
+}
+p
+{
+    a
+    {
+        padding-right: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: $OldBrick;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+article > img 
+{ padding-right: 16%; 
+  float: right;
+  margin: 0;
+}
+img + h3 
+{
+    clear: left;
+    padding-top: 10px;
+}
+h3 + ul {clear: both;}
+#winImg
+{
+    float: right;
+    width: 100%;
+    img{
+    padding-top: 50px;
+    align-content: center;
+    width: 32%;
+    }
+}

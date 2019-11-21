@@ -15,3 +15,9 @@ CSSA TARGET has two programs: The Shooting Rangers Junior Program and the CSSA T
 The Competition runs annually from November 1st to October 31st.  This time period constitutes a shooting year.
 
 Any number of targets may be submitted by an individual, but only the top ten targets are scored.
+
+![Grandby Gun Club](images/granbyGC.png "Logo for Grnaby Gun Club")
+
+![Easern Ontario Shooting Club](images/eoscGC.png "Logo for Eastern Ontario Shooting Gun Club")
+
+![Barrie Gun Club](images/barrieGC.png "Logo for Barrie Gun Club")

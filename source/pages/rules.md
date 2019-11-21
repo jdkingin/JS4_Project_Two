@@ -4,7 +4,8 @@ banner: banner.png
 template: page
 ---
 
-# Cost and Rules
+
+![CSSA Target](images/CSSA_Target.jpg "Image of CSSA Target")
 
 ### THE COST OF THE COMPETITION
 
