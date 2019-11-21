@@ -9,21 +9,20 @@ const browseSync = require('browser-sync');
 const wrap = require('gulp-wrap');
 const frontMatter = require('gulp-front-matter');
 const fs = require('fs');
-const $ = require('jquery');
+const htmlmin = require('gulp-htmlmin');
 
 function js_task()
 {
-    return src('source/scripts/*.js', /*'source/scripts/*.ts']*/)
-            //.pipe(typeScript({target: 'ES5', allowJs: true}))
+    return src('source/scripts/*.js')
             .pipe(concat('main.js'))
-            //.pipe(minify())
+            .pipe(minify())
             .pipe(dest('prod/scripts/'));
 }
 
 function css_task()
 {
     return src('source/styles/*.scss')
-            .pipe(sass())
+            .pipe(sass({outputStyle: 'compressed'}))
             .pipe(dest('prod/styles/'));
 }
 
@@ -41,6 +40,7 @@ function html_task()
 {
     // Created task to be able to edit raw HMTL files
     return src('source/*.html')
+        .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(dest('prod/'));
 }
 
