@@ -31,9 +31,7 @@ html, body {
     padding: 0 20px;
     padding-bottom: 40px;
 }
-.right{
-    float: right;
-}
+
 #footer {
     position: absolute;
     bottom: 0;
@@ -74,6 +72,34 @@ nav
             {
                 background-color: $OldBrick;
             }
+        }
+        .right
+        {
+            float: right;
+            border: none;
+            color: white;
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            margin: 4px 2px;
+            background-color: #333;
+            font-weight: bold;
+            font-family: $Roboto;
+            cursor: pointer;
+            .right:hovernot(.active)
+            {
+                background-color: #111;
+            }
+            .active
+            {
+                background-color: $OldBrick;
+            }
+        }
+        .right:focus
+        {
+            outline: none;
+            background-color: $OldBrick;
         }
     }
 }
@@ -274,4 +300,17 @@ h3 + ul {clear: both;}
     align-content: center;
     width: 32%;
     }
+}
+.calmodal
+{
+    display: none;
+    position: absolute;
+    padding-top: 100px;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    background-color:$OldBrick;
+    color: white;
+    left: 100%;
+    width: 50%;
 }

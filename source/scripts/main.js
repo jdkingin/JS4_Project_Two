@@ -1,10 +1,17 @@
-const modal = document.getElementById("modal");
+
 let slideIndex = 1;
 
 //Open Modal
 function openModal()
 {
+    const modal = document.getElementById("modal");
     modal.style.display = "block";   
+}
+
+function openCalModal()
+{
+    const calModal = document.getElementById("calModal");
+    calModal.style.display = "block";  
 }
 
 //Close modal

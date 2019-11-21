@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Winners</title>
+  <script src="scripts/main.js" type="text/javascript" defer></script>
   <link href="styles/styles.css" rel="stylesheet" />
 </head>
 <body>
@@ -16,7 +17,7 @@
         <li><a href="index.html" >Home</a></li>
         <li><a href="rules.html" >Rules</a></li>
         <li><a href="winners.html"  class="active" >Winners</a></li>
-        <li class="right"><a href="calendar.html" >Calendar</a></li>
+        <button class="right active" onclick="openCalModal()">Calendar</button>
     </ul>
  </nav>
 </header>
@@ -24,6 +25,30 @@
     <div id="body">
       
 <article>
+   <!--Calender Modal-->
+   <div id="calModal" class="calmodal">
+      <h1>Upcoming Events</h1>
+      <h3>Alberta</h3>
+      <h5>NOV 30</h5>
+      <p>Edmonton (Capital Region) Gun Show | November 30-December 1, 2019
+      HERITAGE PARK, THE PAVILION, 5100 41 AVENUE, STONY PLAIN, AB</p>
+
+      <P>Hours Saturday: 10 a.m. to 5 p.m. Sunday: 9 a.m. to 3 p.m. Admission General: $8 For more information, please contact Darren at 780-473-3032 or John at 780-455-5036 or email</P>
+
+
+
+      <h5>JAN 11</h5>
+      <p>AACCA Calgary Gun Show | January 11, 2020
+      THORNCLIFFE COMMUNITY CENTRE, BMO CENTRE, 5600 CENTRE STREET NORTH, CALGARY, AB</p>
+
+      <p>Admission General: $5. Children under 12 are free.</p>
+
+      <h5>JAN 18</h5>
+      <p>Lloydminster Gun & Outdoor Sportsman Show | January 18-19, 2020
+      SERVUS SPORTS CENTRE, 5202 - 12 STREET, #1 LLOYDMINSTER, AB</p>
+
+      <p>Hours Saturday: 10 a.m. to 6 p.m. Sunday: 10 a.m. to 3 p.m. Admission General: $10. Children 12 and under are free with an adult.</p>
+    </div>
   <h1>Past Winners</h1>
 <p>CONGRATULATIONS TO THE 2017-2018 WINNERS OF THE CSSA TARGET COMPETITION! See the Final Standings <a href="http://cssa-cila.org/wp-content-cssa/uploads/2018/12/CSSA-Target-Competition-Final-Standings-2017-2018-2.pdf">HERE</a></p>
 <p>CSSA TARGET is a basic and informal handgun and rifle bullseye target competition for all ages. The aim of this competition is to promote the sport of target shooting in a safe, fun and friendly atmosphere.</p>
