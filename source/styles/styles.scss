@@ -305,7 +305,7 @@ h3 + ul {clear: both;}
 {
     display: none;
     position: absolute;
-    padding-top: 100px;
+    padding: 100px 20px 0 20px;
     top: 0;
     height: 100%;
     overflow: auto;
@@ -313,4 +313,11 @@ h3 + ul {clear: both;}
     color: white;
     left: 100%;
     width: 50%;
+    h5+p+p {border-bottom: 3px solid white;}
+    h1 + a 
+    {
+        color: white;
+        font-weight: bold;
+    }
 }
+
