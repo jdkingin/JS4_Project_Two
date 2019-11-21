@@ -13,10 +13,10 @@ const $ = require('jquery');
 
 function js_task()
 {
-    return src(['source/scripts/*.js', 'source/scripts/*.ts'])
-            .pipe(typeScript({target: 'ES5', allowJs: true}))
+    return src('source/scripts/*.js', /*'source/scripts/*.ts']*/)
+            //.pipe(typeScript({target: 'ES5', allowJs: true}))
             .pipe(concat('main.js'))
-            .pipe(minify())
+            //.pipe(minify())
             .pipe(dest('prod/scripts/'));
 }
 
@@ -46,7 +46,7 @@ function html_task()
 
 function image_task()
 {
-    return src(['source/images/*.png', 'source/images/*.gif'])
+    return src(['source/images/*.png', 'source/images/*.jpg'])
             .pipe(dest('prod/images/'))
 }
 

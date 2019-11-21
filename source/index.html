@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
+    <script src="scripts/main.js" type="text/javascript" defer></script>
     <link href="styles/styles.css" rel="stylesheet" />
   </head>
   <body>
@@ -23,7 +24,7 @@
       </div>
       <div id="body">
         <article>
-          <h1 id="cssa-canadian-shooting-sports-association">CSSA Canadian Shooting Sports Association</h1>
+          <h1>CSSA Canadian Shooting Sports Association</h1>
           <p>The shooting sports, for those involved, there are no limits! The recreational shooter may spend an evening a week, while others seek Olympic Gold. Whether youth, adult, or senior, shooting is a lifetime sport. Male or female, shooting emphasizes &quot;equal opportunity&quot; skills. For able-bodied and disabled alike, shooting sports are accessible. Shooting is a year-round activity; outdoors in the summer and indoors in the winter. Target shooting has a safety record unsurpassed by other sports. Clubs are located in most parts of the country, often surprisingly close to home.</p>
           <p>In this area of our site the aim here is to provide a description of the many shooting sports that the members of our organization participate in. If you are a &quot;recognized expert&quot; in your discipline (that is you can write something about it) and are a member of the organization, then please send your gems of wisdom to us. Help us build these areas.</p>
           <p>We look forward to hearing from you.</p>
@@ -32,30 +33,25 @@
           <p><a href="https://cssa-cila.org/shooting-sports/handgun-shooting-disciplines/">Handgun shooting dicilpines</a></p>
           <p><a href="https://cssa-cila.org/shooting-sports/rifle/">Rifle</a></p>
 
+          <h2>RIFLES</h2>
           <div class="imgRow">
             <div class="imgCol">
-              <p>Air Rifle:
-              <img src="images/airrifle.gif" alt="Air Rifle" title="Image of Air Rifle"></p>
+              <img src="images/airrifle_small.png" alt="Air Rifle" title="Image of Air Rifle" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
             </div>
             <div class="imgCol">
-              <p>Free Rifle:
-              <img src="images/freerifle.gif" alt="Free Rifle" title="Image of Free Rifle"></p>
+              <img src="images/freerifle_small.png" alt="Free Rifle" title="Image of Free Rifle" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
             </div>
             <div class="imgCol">
-              <p>Match Rifle:
-              <img src="images/matchrifle.gif" alt="Match Rifle" title="Image of Match Rifle"></p>
+              <img src="images/matchrifle_small.png" alt="Match Rifle" title="Image of Match Rifle" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
             </div>
             <div class="imgCol">
-              <p>Metallic Silhoulette Rifle:
-              <img src="images/metallicSilhouetteRifle.gif" alt="Metallic Rifle" title="Image of Metallic Silhouette Rifle"></p>
+              <img src="images/metallicSilhouetteRifle_small.png" alt="Metallic Rifle" title="Image of Metallic Silhouette Rifle" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
             </div>
             <div class="imgCol">
-              <p>Running Target Rifle:
-              <img src="images/runningTargetRifle.gif" alt="Running Target Rifle" title="Image of Running Target Rifle"></p>
+              <img src="images/runningTargetRifle_small.png" alt="Running Target Rifle" title="Image of Running Target Rifle" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
             </div>
             <div class="imgCol">
-              <p>Sporting Rifle:
-              <img src="images/sportingrifle.gif" alt="Sporting Rifle" title="Image of Sporting Rifle"></p>
+              <img src="images/sportingrifle_small.png" alt="Sporting Rifle" title="Image of Sporting Rifle" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
             </div>
           </div>
 
@@ -65,32 +61,32 @@
             <div class="modal-content">
               <div class="imgSlides">
                 <div class="numbertext"> 1 / 6 </div>
-                <img class="imgFull" src="images/airrifle.gif" alt="Air Rifle" title="Image of Air Rifle">
+                <img src="images/airrifle.jpg" alt="Air Rifle" title="Image of Air Rifle">
               </div>
 
               <div class="imgSlides">
                 <div class="numbertext"> 2 / 6 </div>
-                <img class="imgFull" src="images/freerifle.gif" alt="Free Rifle" title="Image of Free Rifle">
+                <img src="images/freerifle.jpg" alt="Free Rifle" title="Image of Free Rifle">
               </div>
 
               <div class="imgSlides">
                 <div class="numbertext"> 3 / 6 </div>
-                <img class="imgFull" src="images/matchrifle.gif" alt="Match Rifle" title="Image of Match Rifle">
+                <img src="images/matchrifle.jpg" alt="Match Rifle" title="Image of Match Rifle">
               </div>
 
               <div class="imgSlides">
                 <div class="numbertext"> 4 / 6 </div>
-                <img class="imgFull" src="images/metallicSilhouetteRifle.gif" alt="Metallic Rifle" title="Image of Metallic Silhouette Rifle">
+                <img src="images/metallicrifle.jpg" alt="Metallic Rifle" title="Image of Metallic Silhouette Rifle">
               </div>
 
               <div class="imgSlides">
                 <div class="numbertext"> 5 / 6 </div>
-                <img class="imgFull" src="images/runningTargetRifle.gif" alt="Running Target Rifle" title="Image of Running Target Rifle">
+                <img src="images/runningtargetrifle.jpg" alt="Running Target Rifle" title="Image of Running Target Rifle">
               </div>
 
               <div class="imgSlides">
                 <div class="numbertext"> 6 / 6 </div>
-                <img class="imgFull" src="images/sportingrifle.gif" alt="Sporting Rifle" title="Image of Sporting Rifle">
+                <img src="images/sportingrifle.jpg" alt="Sporting Rifle" title="Image of Sporting Rifle">
               </div>
 
               <!--Next/Previous Controls-->
@@ -104,27 +100,27 @@
 
               <!--Thumbnail image controls-->
               <div class="imgCol">
-                <img class="demo" src="images/airrifle.gif" alt="Air Rifle" title="Image of Air Rifle" onclick="currentSlide(1)">
+                <img class="demo" src="images/airrifle_m.jpg" alt="Air Rifle" title="Image of Air Rifle" onclick="currentSlide(1)">
               </div>
 
               <div class="imgCol">
-                <img class="demo" src="images/freerifle.gif" alt="Free Rifle" title="Image of Free Rifle" onclick="currentSlide(2)">
+                <img class="demo" src="images/freerifle_m.jpg" alt="Free Rifle" title="Image of Free Rifle" onclick="currentSlide(2)">
               </div>
 
               <div class="imgCol">
-                  <img class="demo" src="images/matchrifle.gif" alt="Match Rifle" title="Image of Match Rifle" onclick="currentSlide(3)">
+                  <img class="demo" src="images/matchrifle_m.jpg" alt="Match Rifle" title="Image of Match Rifle" onclick="currentSlide(3)">
               </div>
 
               <div class="imgCol">
-                <img class="demo" src="images/metallicSilhouetteRifle.gif" alt="Metallic Silhoukette Rifle" title="Image of Metallic Silhouette Rifle" onclick="currentSlide(4)">
+                <img class="demo" src="images/metallicrifle_m.jpg" alt="Metallic Silhoukette Rifle" title="Image of Metallic Silhouette Rifle" onclick="currentSlide(4)">
               </div>
 
               <div class="imgCol">
-                <img class="demo" src="images/runningtargetrifle.gif" alt="Running Target Rifle" title="Image of Running Target Rifle" onclick="currentSlide(5)">
+                <img class="demo" src="images/runningtargetrifle_m.jpg" alt="Running Target Rifle" title="Image of Running Target Rifle" onclick="currentSlide(5)">
               </div>
 
               <div class="imgCol">
-                <img class="demo" src="images/sportingrifle.gif" alt="Sporting Rifle" title="Image of Sporting Rifle" onclick="currentSlide(6)">
+                <img class="demo" src="images/sportingrifle_m.jpg" alt="Sporting Rifle" title="Image of Sporting Rifle" onclick="currentSlide(6)">
               </div>
             </div>
           </div>  

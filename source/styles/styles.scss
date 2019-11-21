@@ -1,5 +1,9 @@
 $OldBrick : rgba(150, 40, 27, 1);
 
+* 
+{
+    box-sizing: border-box;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -76,7 +80,7 @@ nav
     padding: 0 8px;
 }
 
-.ingRow:after 
+.imgRow:after 
 {
     content: "";
     display: table;
@@ -87,7 +91,7 @@ nav
 .imgCol
 {
     float: left;
-    width: 25%;
+    width: 16.66%;
 }
 
 //The modal(backgournd)
@@ -167,7 +171,7 @@ nav
 //Number text (1/6 etc)
 .numbertext
 {
-    color: #f2f2f2;
+    color: black;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
