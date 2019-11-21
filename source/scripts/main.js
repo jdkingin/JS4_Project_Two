@@ -1,9 +1,10 @@
 const modal = document.getElementById("modal");
 let slideIndex = 1;
+
 //Open Modal
 function openModal()
 {
-    modal.style.display = "block";
+    modal.style.display = "block";   
 }
 
 //Close modal
